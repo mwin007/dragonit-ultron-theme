@@ -1,0 +1,114 @@
+/* ----------------------------------------------------
+	DARK COLOR SCHEME	
+------------------------------------------------------- */ 
+
+.newsletter.pattern2,
+.light,
+.teamdesc,
+.contact-details .why-us-right:hover i,
+.footer.light,
+.contact-details .why-us-right,
+.white {
+	background-color: #030303 !important;
+}
+
+#loginbox .input-group-addon,
+.grey2,
+.grey1,
+.makeborder-left,
+.makeborder-top, .makeborder-bottom, .makeborder-right, .makeborder-left {
+	background:#030303 !important;
+}
+
+#loginbox .panel,
+#loginbox .input-group-addon,
+#loginbox .panel-info > .panel-heading,
+#loginbox .panel-body,
+.panel-body,
+.accordion-toggle-2 .panel-heading,
+.panel-default,
+.box2 .price small,
+.box2 .price span,
+.form-control {
+	background-color: #1a1a1a;
+	border-color: #1a1a1a !important;
+}
+
+.pricing-box .pricing-box-bottom, .pricing-box,
+.why-us-right i, .why-us i,
+.grey {
+	background-color: #1a1a1a;
+}
+
+
+
+#blogmasonry .box,
+hr,
+.tab-content,
+.newsletter .form-inline .form-control,
+.contact-details .why-us-right,
+#owl-portfolio.owl-custom .owl-controls .owl-dot span, 
+#owl-testi-2.owl-custom .owl-controls .owl-dot span,
+.border-top {
+	border-color:#333;
+}
+
+.grey2, .grey1, .makeborder-left, .makeborder-top, .makeborder-bottom, .makeborder-right, .makeborder-left,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a,
+.home-message .btn-normal.btn-primary, .btn-primary,
+.why-us-right, .why-us,
+.contact-details .why-us-right i,
+#owl-portfolio.owl-custom .owl-controls .owl-dot span, #owl-testi-2.owl-custom .owl-controls .owl-dot span,
+.progress-bar {
+	background-color:#333 !important;
+}
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li > a {
+	color:#333333 !important;
+}
+
+#loginbox .panel-body,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li > a {
+	border-color:#333333 !important;
+}
+
+.custom-title h2,
+.grey2, .grey1, .makeborder-left, .makeborder-top, .makeborder-bottom, .makeborder-right, .makeborder-left,
+.faqsfilter ul li a, .portfolio-filter ul li a:hover, .portfolio-filter ul li a.active,
+.panel-heading h3,
+.visible-desc h4 a,
+.grey1 .services-1 i,
+#loginbox .panel-info > .panel-heading,
+#payment label,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a,
+.best-seller-widget li .blog-title h4 a, .best-seller-widget li .blog-title h4,
+.btn-primary:hover,
+.home-message .btn-normal.btn-primary, .btn-primary {
+	color:#fff !important;
+}
+
+.background .custom-title h2 {
+	color:#030303 !important;
+}
+
+.pricing-box-bottom h3, .pricing-box-bottom h3 a,
+.pricing-box h2,
+.pricing-box h3,
+.pricing-box i,
+.shopbuttons strong,
+.shop-title p,
+.rating i,
+.blog-wrapper .blog-title h4 a,
+.customh4,
+.why-us-right i, .why-us i,
+.contact-details .why-us-right i,
+.skills p,
+h1,h2,h3,h4,h5,h6 {  
+	color:#fff; 
+}
