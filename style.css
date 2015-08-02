@@ -1,5 +1,5 @@
 /* ----------------------------------------------------
-  
+
 	File Name: style.css
 	Template Name: Ultron
 	Created By: Template Visual
@@ -20,11 +20,11 @@
 	13. OTHERS
 	14. BOXED VERSION
 
-------------------------------------------------------- */  
+------------------------------------------------------- */
 
 /* ----------------------------------------------------
-	IMPORT	
-------------------------------------------------------- */  
+	IMPORT
+------------------------------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Lekton:400,400italic,700);
@@ -32,13 +32,13 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 
 /* ----------------------------------------------------
-	SKELETON	
-------------------------------------------------------- */  
+	SKELETON
+------------------------------------------------------- */
 
 	body {
 		background: #fff;
 		color: #535353;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 26px;
 		letter-spacing: -0.3px;
 		font-weight: 400;
@@ -46,48 +46,48 @@
 		font-family: "Lekton", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
-	h1,h2,h3,h4,h5,h6{ 
+	h1,h2,h3,h4,h5,h6{
 		letter-spacing:0px;
 		font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight:normal;
 		position: relative;
-		padding: 0 0 10px 0;         
+		padding: 0 0 10px 0;
 		font-weight:normal;
 		text-transform: uppercase;
 		line-height:1.8;
 		color:#030303;
 	}
-	
+
 	h1{
-		font-size: 40px; 
+		font-size: 40px;
 	}
-	
+
 	h2{
-		font-size: 30px; 	
+		font-size: 30px;
 	}
-	
+
 	h3{
-		font-size: 18px; 
+		font-size: 18px;
 	}
-	
+
 	h4{
-		font-size: 16px; 		
+		font-size: 16px;
 	}
-	
+
 	h5{
-		font-size: 14px; 		
+		font-size: 14px;
 	}
-	
+
 	h6{
-		font-size: 14px;  	
+		font-size: 14px;
 	}
 
 	a {
 		color:#696969;
 	}
-	
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-		text-decoration:none !important; 
+		text-decoration:none !important;
 	}
 
 	.customh4 {
@@ -96,7 +96,7 @@
 		color:#030303;
 		text-transform: none;
 	}
-	
+
 	img.aligncenter{
 		display:block;
 		text-align:center;
@@ -106,7 +106,7 @@
 		border:0px;
 		background:none;
 	}
-	
+
 	.alignleft{
 		float:left;
 		margin: 6px 20px 6px 0;
@@ -116,7 +116,7 @@
 		padding:0;
 		display:block;
 	}
-	
+
 	.alignright{
 		padding:0;
 		float:right;
@@ -125,12 +125,12 @@
 		display:block;
 		background:none;
 	}
-	
+
 	::selection {
 		background: #f84b4a; /* Safari */
 		color:#fff;
 	}
-	
+
 	::-moz-selection {
 		background: #f84b4a; /* Firefox */
 		color:#fff;
@@ -139,14 +139,14 @@
 	.border-radius {
 		border-radius: 500px;
 	}
-	
-	blockquote {		 
+
+	blockquote {
 		font-size:16px;
 		line-height: 32px;
 		font-family: 'Droid Serif', Georgia, "Times New Roman", serif;
 		font-weight:normal;
-		font-style:italic;	   
-		position:relative;  
+		font-style:italic;
+		position:relative;
 		width:auto;
 	}
 
@@ -154,7 +154,7 @@
 		display: block;
 		margin-top: 20px;
 	}
-	
+
 	pre {
 		line-height:18px;
 		margin-bottom:18px;
@@ -212,22 +212,22 @@
 	.demos a img:hover {
 		opacity: 0.6;
 	}
-	
+
 	ins {
 		text-decoration:none;
 	}
-	
+
 	sup {
 		bottom: 1ex;
 	}
-	
+
 	sub {
 		top: .5ex;
 	}
-	
+
 	p{
 		padding:0 0 20px 0;
-	}	
+	}
 
 	.check li:before {
 		content: "\f00c";
@@ -247,7 +247,7 @@
 	}
 
 	.check {
-		margin-left:0; 
+		margin-left:0;
 		padding-left:0
 	}
 	mark {
@@ -338,16 +338,16 @@
 
 	.yvideo {
 		width:100%;
-		border:1px solid #fafafa;	
+		border:1px solid #fafafa;
 	}
 	.slidervideo {
 		width:100%;
 		height:100%;
 	}
-	
+
 /* ----------------------------------------------------
-	PORTFOLIO	
-------------------------------------------------------- */  
+	PORTFOLIO
+------------------------------------------------------- */
 
 	.share-post {
 		margin-top: 40px;
@@ -656,11 +656,11 @@
 	}
 
 /* ----------------------------------------------------
-	SHOP	
-------------------------------------------------------- */  
-	
+	SHOP
+------------------------------------------------------- */
+
 	.shop_bg {
-	  background: url(upload/shop_bg.jpg) no-repeat center center; 
+	  background: url(upload/shop_bg.jpg) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -668,7 +668,7 @@
 	}
 
 	.landing_bg {
-	  background: url(upload/landing.png) no-repeat center center; 
+	  background: url(upload/landing.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -920,18 +920,18 @@
 	}
 
 /* ----------------------------------------------------
-	SECTIONS	
-------------------------------------------------------- */  
+	SECTIONS
+------------------------------------------------------- */
 
 	.about_bg {
-	  background: url(upload/about_bg.jpg) no-repeat center center; 
+	  background: url(upload/about_bg.jpg) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
 	}
 
-	#animate-area { 
+	#animate-area {
 	    background-image: url(upload/animatebg.jpg);
 	    animation: animatedBackground 666s linear infinite;
 	    -moz-animation: animatedBackground 666s linear infinite;
@@ -1187,7 +1187,7 @@
 		background-color: #f0f0f0;
 	}
 	.grey1 {
-		background-color: #eae9e9; 
+		background-color: #eae9e9;
 	}
 	.grey.nopadding {
 		padding-top:0;
@@ -1245,7 +1245,7 @@
 
 	.border-top {
 		border-top:1px solid #f0f0f0;
-	} 
+	}
 
 	.nopaddingbottom {
 		padding-bottom: 0 !important;
@@ -1393,8 +1393,8 @@
 	}
 
 /* ----------------------------------------------------
-	MODULES	
-------------------------------------------------------- */ 
+	MODULES
+------------------------------------------------------- */
 
 	.pricing-box i {
 		color:#030303;
@@ -1423,7 +1423,7 @@
 	.pricing-box:hover ul li,
 	.pricing-box:hover h2,
 	.pricing-box:hover h3,
-	.pricing-box:hover i,	
+	.pricing-box:hover i,
 	.pricing-box.dark ul li,
 	.pricing-box.dark h2,
 	.pricing-box.dark h3,
@@ -1584,8 +1584,8 @@
 	    padding: 0;
 	}
 
-	.nav-tabs > li.active > a, 
-	.nav-tabs > li.active > a:hover, 
+	.nav-tabs > li.active > a,
+	.nav-tabs > li.active > a:hover,
 	.nav-tabs > li.active > a:focus,
 	.nav-tabs > li > a {
 	    border-radius: 0 !important;
@@ -1613,7 +1613,7 @@
 	.tab-pane .media-body h3 {
 		text-align: left;
 		font-size: 18px !important;
-		padding-bottom: 0 !important; 
+		padding-bottom: 0 !important;
 	}
 
 
@@ -1669,7 +1669,7 @@
 		font-size:30px;
 		letter-spacing: 2px;
 	}
-	
+
 	.count span {
 		font-style: italic;
 	}
@@ -1761,12 +1761,12 @@
 
 	.btn {
 		text-transform: uppercase;
-		font-size: 13px;
+		font-size: 15px;
 		color:#030303;
 		letter-spacing: 1px;
 		border-radius: 2px;
 	}
-	
+
 	.btn-normal {
 		background: #f0f0f0;
 		padding: 13px 30px 12px !important;
@@ -1913,9 +1913,9 @@
 	}
 
 	#message {
-		display: none; 
-		position:relative; 
-		text-align:left; 
+		display: none;
+		position:relative;
+		text-align:left;
 		padding:20px;
 	}
 
@@ -1997,8 +1997,8 @@
 	}
 
 /* ----------------------------------------------------
-	HEADER	
-------------------------------------------------------- */ 
+	HEADER
+------------------------------------------------------- */
 
 	.topbar {
 		padding:10px 0;
@@ -2006,8 +2006,8 @@
 	}
 	.topbar a,
 	.topbar span {
-		color:#535353;	
-		font-size: 14px;	
+		color:#535353;
+		font-size: 14px;
 		padding:0;
 		margin:0;
 		font-weight: 400 !important;
@@ -2024,7 +2024,7 @@
 	}
 	.topbar i {
 		padding: 0 3px;
-		color:#535353;	
+		color:#535353;
 		font-size: 14px;
 	}
 
@@ -2096,8 +2096,8 @@
 	    border:1px solid #030303 !important;
 		font-size: 12px;
 		width: 220px;
-		color:#535353;	
-		font-size: 14px;	
+		color:#535353;
+		font-size: 14px;
 		font-weight: 400 !important;
 		font-family: "Lekton", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 		margin: 0;
@@ -2122,7 +2122,7 @@
 	/*!
 	 * Yamm!3 - Yet another megamenu for Bootstrap 3
 	 * http://geedmo.github.com/yamm3
-	 * 
+	 *
 	 * @geedmo - Licensed under the MIT license
 	 */
 	.yamm .nav,
@@ -2169,7 +2169,7 @@
 		font-size: 18px;
 		text-transform: uppercase;
 		font-weight: bold;
-		letter-spacing: 0.10em !important; 
+		letter-spacing: 0.10em !important;
 	}
 	.dropdown-menu li a {
 		color:#ffffff;
@@ -2202,7 +2202,7 @@
 		top:30px !important;
 	}
 
-	#header.affix .transparent-header { 
+	#header.affix .transparent-header {
 		border-color:#030303;
 		background-color: #030303;
 	}
@@ -2226,7 +2226,7 @@
 		background-color: #ffffff;
 	}
 
-	.dark-background { 
+	.dark-background {
 		border-color:#030303;
 		background-color: #030303;
 	}
@@ -2235,8 +2235,8 @@
 		margin-top: 20px;
 	}
 
-	.normal-header .navbar-default .navbar-nav > .open > a, 
-	.normal-header .navbar-default .navbar-nav > .open > a:hover, 
+	.normal-header .navbar-default .navbar-nav > .open > a,
+	.normal-header .navbar-default .navbar-nav > .open > a:hover,
 	.normal-header .navbar-default .navbar-nav > .open > a:focus {
 		background-color: #ffffff;
 	}
@@ -2271,25 +2271,25 @@
 		margin-top: 15px;
 	}
 
-	.transparent-header .nav > li > a { 
+	.transparent-header .nav > li > a {
 		color:#ffffff;
 	}
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus {
 		background-color: transparent;
 	}
-	
+
 	.normal-header.dark-color .social i,
-	.normal-header.dark-color .nav > li > a { 
+	.normal-header.dark-color .nav > li > a {
 		color:#909090;
 	}
 
 	.normal-header.dark-color .nav > li > a:hover,
 	.transparent-header.dark-color .social i,
-	.transparent-header.dark-color .nav > li > a { 
+	.transparent-header.dark-color .nav > li > a {
 		color:#030303;
 	}
 
@@ -2301,14 +2301,14 @@
 		background-color: #030303;
 	}
 
-	#header.affix.dark-color { 
+	#header.affix.dark-color {
 		border-color:#ffffff !important;
 		background-color: #ffffff !important;
 	}
 
 /* ----------------------------------------------------
 	BLOG PAGE
-------------------------------------------------------- */ 
+------------------------------------------------------- */
 
 	.comment-wrapper .blog-title h2 {
 		letter-spacing: 0.2em;
@@ -2451,14 +2451,14 @@
 	.pageheader.lighthead .breadcrumb > li a {
 		color: #030303 !important;
 	}
-	.pagination > li:last-child > a, 
+	.pagination > li:last-child > a,
 	.pagination > li:last-child > span
-	.pagination > li:first-child > a, 
+	.pagination > li:first-child > a,
 	.pagination > li:first-child > span {
 	    border-radius: 7px;
 	}
 
-	.pagination > li > a, 
+	.pagination > li > a,
 	.pagination > li > span {
 	    letter-spacing: 0;
 	    padding: 15px 15px;
@@ -2473,12 +2473,12 @@
 	    font-weight: bold;
 	}
 
-	.grey1 .pagination > li > a, 
+	.grey1 .pagination > li > a,
 	.grey1 .pagination > li > span {
 	    background-color: #fff ;
 	}
 
-	.pagination > li > a:hover, 
+	.pagination > li > a:hover,
 	.pagination > li > span:hover {
 		background-color: #030303;
 		border-color: #030303;
@@ -2563,7 +2563,7 @@
 		padding-bottom: 20px;
 		margin-bottom: 10px;
 	}
-	
+
 	.widget-title h3 {
 	    font-size: 24px;
 	    letter-spacing: 0.1em;
@@ -2651,12 +2651,12 @@
 	    padding: 10px 0 15px;
 	}
 
-	.news-widget li .blog-meta a, 
+	.news-widget li .blog-meta a,
 	.news-widget li .blog-meta {
 		padding:0;
 	}
 
-	.news-widget li .blog-title h4, 
+	.news-widget li .blog-title h4,
 	.news-widget li .blog-title h4 a  {
 	    color: #030303 !important;
 	    font-size: 14px;
@@ -2672,8 +2672,8 @@
 	}
 
 /* ----------------------------------------------------
-	FOOTER	
-------------------------------------------------------- */ 
+	FOOTER
+------------------------------------------------------- */
 
 	.footer {
 		padding:160px 0;
@@ -2793,7 +2793,7 @@
 	.tp-caption.slider_04,
 	.tp-caption.slider_06,
 	.tp-caption.slider_01 {
-		color:#ffffff;
+		color:#000000;
 		text-shadow:none;
 		font-weight:300;
 		font-size:60px;
@@ -2928,12 +2928,12 @@
 	.parallax-text-3,
 	.slider_02,
 	.tp-caption.slider_02 {
-		color:#ffffff;
+		color:#000000;
 		text-shadow:none;
 		font-style: italic;
 		font-weight: normal;
 		letter-spacing: 1px;
-		font-size:18px;
+		font-size:28px;
 		line-height:38px;
 		font-family: "Lekton", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	}
@@ -3071,8 +3071,8 @@
 	}
 
 	.boxedcontainer {
-		max-width: 1170px; 
-		margin:auto; 
+		max-width: 1170px;
+		margin:auto;
 		padding:0px 30px;
 	}
 
@@ -3098,7 +3098,7 @@
 		display: none;
 	}
 
-	#home.slider-2 .tparrows.preview3, 
+	#home.slider-2 .tparrows.preview3,
 	#home.slider-2 .tparrows.preview3::after {
 	    background-color: rgba(3, 3, 3, 0) !important;
 	    border-radius: 100%;
@@ -3274,8 +3274,8 @@
 	}
 
 /* ----------------------------------------------------
-	COLORS	
-------------------------------------------------------- */ 
+	COLORS
+------------------------------------------------------- */
 
 	.why-us:hover:after,
 	.tooltip.left:after {
@@ -3300,7 +3300,7 @@
 	.btn-normal:focus,
 	.pricing-box:hover .pricing-box-bottom,
 	.blog-title h4 a:hover,
-	.owl-custom .owl-dots .owl-dot.active span, 
+	.owl-custom .owl-dots .owl-dot.active span,
 	.owl-custom .owl-dots .owl-dot:hover span,
 	.why-us:hover,
 	.why-us-right:hover,
@@ -3326,8 +3326,8 @@
 	.dropdown-menu li a.active,
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus,
 	.footer i:hover,
 	.widget .social a:hover,
@@ -3338,8 +3338,8 @@
 		color:#faf476;
 	}
 
-	#customtab .nav-tabs > li.active > a, 
-	#customtab .nav-tabs > li.active > a:hover, 
+	#customtab .nav-tabs > li.active > a,
+	#customtab .nav-tabs > li.active > a:hover,
 	#customtab .nav-tabs > li.active > a:focus,
 	.faqsfilter ul li a:hover {
 		color:#faf476 !important;
@@ -3353,11 +3353,11 @@
 	.btn-normal:hover,
 	.btn-normal:focus,
 	.widget .social a:hover,
-	#slider_carousel.owl-custom .owl-dots .owl-dot.active span, 
+	#slider_carousel.owl-custom .owl-dots .owl-dot.active span,
 	#slider_carousel.owl-custom .owl-dots .owl-dot:hover span
-	.owl-custom .owl-dots .owl-dot.active span, 
+	.owl-custom .owl-dots .owl-dot.active span,
 	.owl-custom .owl-dots .owl-dot:hover span,
-	.white .owl-custom .owl-dots .owl-dot.active span, 
+	.white .owl-custom .owl-dots .owl-dot.active span,
 	.white .owl-custom .owl-dots .owl-dot:hover span,
 	.btn-default {
 		border-color: #faf476;
@@ -3366,7 +3366,7 @@
 		background: #faf476; /* Safari */
 		color:#fff;
 	}
-	
+
 	::-moz-selection {
 		background: #faf476; /* Firefox */
 		color:#fff;
@@ -3378,7 +3378,7 @@
 	}
 
 /* ----------------------------------------------------
-	RESPONSIVE	
+	RESPONSIVE
 ------------------------------------------------------- */
 
 @media (max-width: 992px) {
@@ -3388,12 +3388,12 @@
 	.yamm .dropdown {
 	  position: relative;
 	}
-	.transparent-header { 
+	.transparent-header {
 		top:0;
 		border-color:#030303;
 		background-color: #030303;
 	}
-	.transparent-header.dark-color { 
+	.transparent-header.dark-color {
 		border-color:#ffffff;
 		background-color: #ffffff;
 	}
@@ -3412,21 +3412,21 @@
 }
 
 /* ----------------------------------------------------
-	OTHERS	
+	OTHERS
 ------------------------------------------------------- */
 
-	.btn-lg, 
+	.btn-lg,
 	.btn-group-lg > .btn {
 	    padding: 20px 66px !important;
 	}
 
-	.btn-sm, 
+	.btn-sm,
 	.btn-group-sm > .btn {
 
 	    padding: 10px 20px !important;
 	}
 
-	.btn-xs, 
+	.btn-xs,
 	.btn-group-xs > .btn {
 	    padding: 5px 15px !important;
 	}
@@ -3551,8 +3551,8 @@
 	}
 
 /* ----------------------------------------------------
-	BOXED	
-------------------------------------------------------- */ 
+	BOXED
+------------------------------------------------------- */
 
 	.boxed #wrapper {
 		padding-right: 0;
@@ -3601,4 +3601,3 @@
 	.pattern8 {
 		background:url(images/pattern8.jpg) repeat center center #fff;
 	}
-
