@@ -1,0 +1,127 @@
+{
+  "bio": {
+    "firstName": "Hinh",
+    "lastName": "Nguyen",
+    "email": "martin.nguyen@live.com",
+    "phone": "917-589-8114",
+    "summary": "I am a highly motivated Magento/PHP developer with over 3 years experience who loves to solve problems and continually learn new technologies and ideas.  At Warner Music and FlexShopper, an Internet start-up, I successfully developed highly customized and sophisticated Magento extensions for their ecommerce solutions.  I also developed complex PHP scripts, SQL queries, RESTful API, and other web-based technologies to improve and address critical problems.  I obtained the coveted Magento Certified Developer Plus certification, which requires a deeper understanding of the underlying structure of Magento and its Enterprise Edition in order to develop extensions for new features.  I also obtained the Zend Certified PHP Engineer and Linux Professional Institute certifications, which are industry-wide standards that recognizes PHP programming and Linux expertise.  Having these combined certifications should give potential employers/clients assurance that I possessed the essential knowledge and skills to develop Magento modules and PHP-based software.  In addition, I have a BS in engineering from a top engineering university, Texas A & M University (i.e. ranked #11 by US News & World Report in 2014).  I made a career change from a lawyer to a software engineer oner 3 years ago.  This is further evidence of the range of abilities I possess and the ability to learn new and different concepts and ideas.  I believe my extensive skills, experience, and credentials represent a software engineer who will be a valuable addition to any development team.  Finally, I am a highly motivated, hard-working professional who continually strive to be creative, productive, an over-achiever, and an enjoyable team member to work with.",
+    "location": {
+      "city": "Brooklyn",
+      "countryCode": "United States",
+      "region": "Northeast",
+      "state": "New York"
+    }
+  },
+  "work": [
+    {
+      "company": "Warner Music",
+      "position": "Magento/PHP Developer",
+      "website": "null",
+      "startDate": "2015-01-04",
+      "endDate": "2015-03-13",
+      "summary": "•  The majority of my duties were to debug and fix the many bugs/errors produced by their highly customized extensions such as payment gateway, warehouse management, pre-order management, product import/export, etc.  I also developed custom Magento extensions to add desired features/functions when the need arises.",
+      "highlights": {
+        "1": "Fixed defects of highly customized extensions such as payment gateway, warehouse management, pre-order management.",
+        "2": "Developed Magento extension, Newsletter Pop-up extension, that creates a subscription pop-up when a button is click with a minimum age filter.  It also has system configurations allowing flexible parameters such enable/disable, age, session, additional fields, and pop-up disable.",
+        "3": "Developed Magento extension, call Special Virtual Product, that overrides the default action for virtual products and allow for customer address input during the checkout process."
+      }
+    },
+    {
+      "company": "FlexShopper, Inc",
+      "position": "Magento/PHP Developer",
+      "website": "www.flexshopper.com",
+      "startDate": "2014-03-01",
+      "endDate": "2013-12-12",
+      "summary": "Specialized in developing back-end and front-end extensions and plugins for Magento Enterprise that were highly customized for FlexShopper’s application needs.  These extensions were highly sophisticated such as a shipping module that is capable of making calls to UPS’s API on a per item basis rather than on a per cart basis.  Another example is a marketplace module that automates the importation and daily updates of third party vendor’s products into Magento.",
+      "highlights": {
+        "1": "Developed and implemented custom PHP scripts to import massive number of products (i.e. up to 100,000 products) into Magento.  Also develop PHP scripts to update inventory, price, content, etc. on a daily basis using cron jobs.",
+        "2": "Developed highly customized payment gateway module for FlexShopper’s patented payment, financing product.",
+        "3": "Skillfully developed PHP scripts to implement Service Oriented Architects and RESTful APIs using JSON, XML, and SOAP to process various data from 3rd party vendors, partners, or Magento’s MySQL database.",
+        "4": "Developed highly customized Magento extensions to achieve desired features/funtions such as custom shipping calculation, checkout process, shipping options, landing page builder, etc.",
+        "5": "Developed front end design and solutions by successfully utilizing web technologies such as PHP, HTML5, CSS, Jquery, Ajax, and JavaScript."
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Texas A&M University",
+      "area": "Industrial Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2000",
+      "endDate": "2004"
+    },
+    {
+      "institution": "Chapman University Dale E. Fowler School of Law",
+      "area": "Law",
+      "studyType": "Doctor Of Jurisprudence, JD",
+      "startDate": "2005",
+      "endDate": "2008"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Magento Enterprise development",
+      "level": "Expert"
+    },
+    {
+      "name": "PHP/MySQL ",
+      "level": "Expert"
+    },
+    {
+      "name": "SOAP/REST API ",
+      "level": "Expert"
+    },
+    {
+      "name": "HTML5, CSS3",
+      "level": "Expert"
+    },
+    {
+      "name": "JavaScript/Juery",
+      "level": "Expert"
+    },
+    {
+      "name": "LAMP Stack & Linux/Bash",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Mobile development (i.e. JavaScript based)",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "WordPress, Drupal, Joomla",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Ajax/AngularJS",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Redis/Cache",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Beanstalk message queue",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "GIT",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "JIRA & AGILE",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Vagrant",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "NetSuite/Microsoft CRM",
+      "level": "Working Proficiency"
+    },
+    {
+      "name": "Unit Testing & Continuous Integration",
+      "level": "Working Proficiency"
+    }
+  ]
+}

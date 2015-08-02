@@ -1,0 +1,28 @@
+<h1>Experience</h1>
+<ul class="list-unstyled center-block">
+    <li ng-repeat="item in resume.work">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{item.company}} : {{item.startDate | date : 'y' }} - {{item.endDate | date : 'y' }}</h3>
+            </div>
+            <div class="panel-body">
+                <img class="img-responsive center-block" src="{{item.logo}}"  alt=""/>
+                <br/>
+                <p><strong>{{item.position}}</strong></p>
+                <p>{{item.summary}}</p>
+                <hr/>
+            </div>
+        </div>
+
+    </li>
+    <div class="col-xs-6">
+        <button ui-sref="bio" class="btn btn-primary pull-right "><i class="glyphicon glyphicon-chevron-left"></i>Bio Info</button>
+
+    </div>
+    <div class="col-xs-6">
+        <button ui-sref="education" class="btn btn-primary pull-left">Education<i class="glyphicon glyphicon-chevron-right"></i></button>
+    </div>
+</ul>
+
+
+

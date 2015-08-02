@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./app/lib/bootstrap/js/bootstrap.js"></script>
+
+
+    <link rel="stylesheet" href="./app/lib/bootstrap/css/bootswatch.css"/>
+    <!--<link rel="stylesheet" href="./app/lib/bootstrap/css/bootstrap-theme.css"/>-->
+    <link rel="stylesheet" href="./app/css/style.css"/>
+
+
+    <script src="./app/lib/angularJS/angular.js"></script>
+    <script src="./app/lib/angularJS/angular-ui-router.js"></script>
+    <script src="./app/lib/angularJS/angular-resource.js"></script>
+    <script src="./app/lib/angularJS/angular-animate.js"></script>
+
+    <script src="./app/controllers/app.js"></script>
+    <script src="./app/controllers/appRoutes.js"></script>
+    <script src="./app/controllers/viewCtrl.js"></script>
+    <script src="./app/services/ResumeService.js"></script>
+
+
+
+
+    <title>Hinh Martin Nguyen CV</title>
+</head>
+<body ng-app="MyApp">
+<div ng-controller="viewCtrl">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MCP">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" ui-sref="bio">Hinh Martin Nguyen, CV</a>
+                    </div>
+
+                <!--COLLECT LINKS FOR NAVBAR COLLAPSE-->
+                    <div class="collapse navbar-collapse" id="MCP">
+                        <ul class="nav navbar-nav">
+                            <li ui-sref-active="active"><a ui-sref="bio">Bio</a></li>
+                            <li ui-sref-active="active"><a ui-sref="experience">Experience</a></li>
+                            <li ui-sref-active="active"><a ui-sref="education">Education</a></li>
+                            <li ui-sref-active="active"><a ui-sref="skills">Skills</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div id="viewSec" ui-view></div>
+                </div>
+            </div>
+    </div>
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

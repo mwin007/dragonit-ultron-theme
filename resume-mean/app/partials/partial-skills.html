@@ -1,0 +1,16 @@
+<h1>Notable Skills</h1>
+<hr/>
+<ul class="list-unstyled">
+    <li ng-repeat="item in resume.skills">
+        {{item.name}}
+    </li>
+</ul>
+
+<div class="col-xs-6">
+    <button ui-sref="education" class="btn btn-primary pull-right "><i class="glyphicon glyphicon-chevron-left"></i>Education</button>
+
+</div>
+<div class="col-xs-6">
+    <button ui-sref="bio" class="btn btn-primary pull-left">Bio Info<i class="glyphicon glyphicon-chevron-right"></i></button>
+</div>
+
