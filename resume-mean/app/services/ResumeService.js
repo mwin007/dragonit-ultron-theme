@@ -1,5 +1,5 @@
 /**
- * Created by lukeaskins on 7/19/14.
+ * Created by Martin Nguyen.
  */
 angular.module('ResumeService', [])
     .factory('resumeFactory', function($http, $resource){

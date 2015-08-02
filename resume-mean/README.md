@@ -1,3 +1,3 @@
-# resume-app-mean-stack
+# resume-app-angular.js
 
-Simple resume app using MEAN Stack.
+Simple resume app using angular.js.
