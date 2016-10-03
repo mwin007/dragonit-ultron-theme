@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="DragonIT" content="">
+  <meta name="magento, wordpress, php, website, web, ecommerce, mobile, framework, codeigniter, zend, nodejs, angularjs, mean, linux, lamp, stack, new york, css, html, javascript, laravel, responsive design, creative, innovative, certified" content="">
+
+  <title>DragonIT Inc</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+    <!-- DrgaonIT custom CSS -->
+    <link href="//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="logo">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="alert alert-success" id="myAlert">
+    <a href="http://dragonit.dev:8888/" class="close">&times;</a>
+    <strong>Successfully Submitted!</strong>  Thank-you & we will contact you shortly!  Click on the X to get back to DragonIT.
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $(".close").click(function(){
+        $("#myAlert").alert("close");
+    });
+});
+</script>
+
+</body>
+</html>
